@@ -4,7 +4,7 @@ var fs = require('fs');
 var output = []
 
 var settings = {
-	waitTimeout: 10 * 60 * 1000
+	executionTimeout: 10 * 60 * 1000
 }
 hacker.run(settings, function (nightmare, data) {
 	return nightmare
