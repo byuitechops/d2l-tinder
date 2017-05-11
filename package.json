@@ -1,5 +1,5 @@
 {
-  "name": "canvas-tinder",
+  "name": "d2l-tinder",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "d2l-hacker": "file:///C:\\Users\\benjam55\\Documents\\d2l-hacker"
+    "d2l-hacker": "d2l-hacker"
   }
 }
