@@ -1,4 +1,6 @@
 var hacker = require('d2l-hacker');
+var d3 = require('d3-dsv');
+var fs = require('fs');
 var output = []
 
 var settings = {
@@ -34,5 +36,6 @@ hacker.run(settings, function (nightmare, data) {
 				e.preventDefault();
 			}
 		})
+},result => {
+	fs.writeFileSync('results.csv',d3.csvFormat(result.map(elm => {elm.elements.complexity = elm.result; return elm.elements})))
 })
-
