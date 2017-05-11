@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "d2l-hacker": "d2l-hacker"
+    "d2l-hacker": "^1.0.0"
   }
 }
