@@ -6,10 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "contributors": "Ben Earl",
-  "license": "ISC",
   "dependencies": {
     "d2l-hacker": "^1.0.0"
-  }
+  },
+  "author": "",
+  "contributors": [{
+    "name": "Benjamin Earl"
+  }],
+  "license": "ISC"
 }
